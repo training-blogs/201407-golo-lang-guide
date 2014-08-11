@@ -1,7 +1,7 @@
 module sample
 
 function foo = |a, b, c...| {
-    return a: toString() + "." + b: toString() + "." + c: toString()
+    return a + "." + b + "." + c: toString()
 }
 
 function elementAt = |index, args...| {
